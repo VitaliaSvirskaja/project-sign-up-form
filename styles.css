@@ -1,5 +1,39 @@
-p{
-    color: rosybrown;
-    font-size: medium;
+html{
+    font-size: 24px;
     font-family: 'Cormorant Garamond', serif;
+}
+
+main{
+    display: flex;
+    height: 700px;
+}
+
+.logo-container{
+    background-color: rosybrown;
+
+}
+
+.logo-line{
+    display: flex;
+    width: 500px;
+    background-color: cadetblue;
+    opacity: 30%;
+    position: relative;
+    top: 100px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.input-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: floralwhite;
 }
