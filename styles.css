@@ -1,39 +1,142 @@
-html{
+html {
     font-size: 24px;
+    font-family: Serif, serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    height: 100%;
+
+}
+
+.logo-container {
+    background-color: cadetblue;
+    width: clamp(700px, 1000px, 1200px);
+    display: flex;
+    align-items: center;
+}
+
+.logo-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: darkslateblue;
+    color: white;
+    opacity: 30%;
+    font-size: 36px;
+    font-weight: bold;
     font-family: 'Cormorant Garamond', serif;
 }
 
-main{
-    display: flex;
-    height: 700px;
-}
-
-.logo-container{
-    background-color: rosybrown;
-
-}
-
-.logo-line{
-    display: flex;
-    width: 500px;
-    background-color: cadetblue;
-    opacity: 30%;
-    position: relative;
-    top: 100px;
-}
-.logo{
+.logo {
     width: 80px;
     height: 80px;
 }
 
-.form-container{
+.form-container {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
 }
 
-.input-container{
+.input-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: floralwhite;
+    gap: 16px;
+
 }
+
+fieldset {
+    background-color: white;
+    margin-top: 25px;
+    padding-left: 50px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 10px 5px 7px lightgrey;
+
+
+}
+
+.legend {
+    font-size: 24px;
+    padding: 8px 0px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.description {
+    padding: 50px 150px 0px 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.login {
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 16px;
+}
+
+button {
+    background-color: cadetblue;
+    font-size: 18px;
+    padding: 8px 24px;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 50px;
+    color: white;
+    border: none;
+    box-shadow: 10px 7px 7px lightgrey;
+}
+
+
+input {
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+input:focus {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 5px 2px 10px lightgrey;
+}
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.validPasswort {
+    border: 1px solid green;
+}
+
+.invalidPasswort {
+    border: 1px dashed red;
+    color: red;
+
+}
+
+.errorMessage {
+    display: block;
+    font-size: 14px;
+    color: red;
+
+}
+
+/*TODO: Responsive Right Container*/
