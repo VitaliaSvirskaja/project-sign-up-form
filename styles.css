@@ -18,7 +18,7 @@ main {
 }
 
 .logo-container {
-    background-image: url("./images/lights.jpg");
+    background-image: url("images/lights.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: clamp(600px, 800px, 1000px);
