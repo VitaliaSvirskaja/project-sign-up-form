@@ -1,5 +1,4 @@
 html {
-    font-size: 24px;
     font-weight: lighter;
     font-family: 'Dosis', sans-serif;
     height: 100%;
@@ -68,7 +67,6 @@ fieldset {
 }
 
 .legend {
-    font-size: 16px;
     padding: 8px 0 24px 0;
 }
 
@@ -114,8 +112,10 @@ label{
 }
 input {
     border: 2px solid #E5E7EB;
-    border-radius: 3px;
-    font-size: 24px;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
 }
 
 input:focus {
