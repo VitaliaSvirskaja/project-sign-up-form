@@ -1,10 +1,11 @@
 html {
     font-size: 24px;
     font-family: Serif, serif;
+    height: 100%;
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -18,6 +19,7 @@ main {
 .logo-container {
     background-color: cadetblue;
     width: clamp(700px, 1000px, 1200px);
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -45,6 +47,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
+    overflow: scroll;
 }
 
 .input-container {
@@ -67,7 +70,7 @@ fieldset {
 
 .legend {
     font-size: 24px;
-    padding: 8px 0px;
+    padding: 8px 0;
 }
 
 .form-input {
@@ -78,7 +81,7 @@ fieldset {
 
 
 .description {
-    padding: 50px 150px 0px 50px;
+    padding: 50px 150px 0 50px;
     font-weight: bold;
     margin: 0;
 }
